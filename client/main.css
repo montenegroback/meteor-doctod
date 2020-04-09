@@ -1,0 +1,44 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+label {
+  font-size: 0.85;
+}
+
+.select, select{
+  width: 100%;
+}
+
+#form-add-doctor, .not-found-doctor{
+  display: flex; justify-content: center; align-items: center; min-height: 95vh;flex-direction: column;
+}
+
+.not-found-doctor img {
+  max-width: 50%; margin-bottom: 2rem;
+}
+
+#form-add-doctor form{
+  background: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #e3e3e3;
+}
+
+.card{
+  margin: 0.5rem 0;
+}
+
+
+/* Medias*/
+
+@media (max-width: 768px) {
+  #form-add-doctor, .not-found-doctor{
+    min-height: auto !important;
+  }
+}
